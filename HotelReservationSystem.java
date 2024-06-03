@@ -4,13 +4,10 @@ import java.sql.Connection;
 import java.util.Scanner;
 import java.sql.Statement;
 import java.sql.ResultSet;
-
-
-
 public class HotelReservationSystem {
-    private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
+    private static final String url = "jdbc:mysql://localhost:3306/?user=root";
     private static final String username = "root";
-    private static final String password = "Admin@123";
+    private static final String password = "Ranjanmahathi";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
